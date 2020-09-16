@@ -1,10 +1,15 @@
-<style>
-body{margin:0;padding:0;background:none}
-#Amp-Canvas-abdoutech-org {width:100%;height:100%}
-#Amp-Canvas-abdoutech-org > div{background: none!important}
-</style>
-<div id='Amp-Canvas-abdoutech-org'></div>
-<script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{margin:0;padding:0;background:none}
+      #Amp-Canvas-abdoutech-org {width:100%;height:100%}
+      #Amp-Canvas-abdoutech-org > div{background: none!important}
+    </style>
+  </head>
+  <body>
+    <div id='Amp-Canvas-abdoutech-org'></div>
+    <script>
 //<![CDATA[
   function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
@@ -28,4 +33,5 @@ var canvasDiv = document.getElementById("Amp-Canvas-abdoutech-org"),
     },
     particleCanvas = new ParticleNetwork(canvasDiv, options);
 //]]>
-</script>
+    </script>
+  </body>
